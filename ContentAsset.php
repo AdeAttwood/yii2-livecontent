@@ -18,5 +18,6 @@ class ContentAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapPluginAsset',
+        'dosamigos\ckeditor\CKEditorAsset'
     ];
 }
