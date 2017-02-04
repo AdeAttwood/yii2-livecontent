@@ -90,8 +90,9 @@ class Module extends \yii\base\Module implements BootstrapInterface
     public function renderEditDialog($event){
 		if ($this->_editDialogRender){
 	    	echo Yii::$app->getView()->render(
-	    		'@vendor/sergeykoz/yii2-livecontent/views/dialog'          
-	    	);
+	    		//'@vendor/sergeykoz/yii2-livecontent/views/dialog'          
+	    		'@vendor/adeattwood/yii2-livecontent/views/dialog'
+		);
     	}
     }
 }
